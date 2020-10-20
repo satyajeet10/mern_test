@@ -1,0 +1,29 @@
+{
+  "name": "Backend_Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.10.9",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^8.0.2",
+    "jest": "^23.6.0",
+    "nodemon": "^1.19.4",
+    "supertest": "^3.4.2"
+  }
+}

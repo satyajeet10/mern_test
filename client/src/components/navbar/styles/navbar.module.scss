@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  .child_container {
+    display: inline-flex;
+  }
+  
+  .home_container{
+    margin: 0 4px;
+  }
+}
+
+
+.highlight_links {
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    filter: brightness(.9);
+  }
+}
